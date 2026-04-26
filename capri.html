@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capri, Italia: Los imperdibles que no te puedes perder</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f4ed;
+            color: #333;
+            line-height: 1.7;
+        }
+        
+        header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?capri-italy-sea') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .header-content {
+            max-width: 800px;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            margin: 0 0 15px 0;
+            text-shadow: 0 3px 10px rgba(0,0,0,0.6);
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            color: #1a3c5e;
+            margin-top: 70px;
+            border-bottom: 3px solid #d4a373;
+            padding-bottom: 15px;
+        }
+        
+        .intro {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto 60px;
+            text-align: center;
+        }
+        
+        .attraction {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 80px;
+            align-items: center;
+        }
+        
+        .attraction:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        
+        .attraction img {
+            width: 100%;
+            max-width: 520px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            transition: transform 0.4s;
+        }
+        
+        .attraction img:hover {
+            transform: scale(1.03);
+        }
+        
+        .text-content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .text-content h3 {
+            font-size: 2rem;
+            color: #1a3c5e;
+            margin-top: 0;
+        }
+        
+        .highlight {
+            background: #fff9e6;
+            padding: 25px;
+            border-left: 6px solid #d4a373;
+            margin: 30px 0;
+            font-style: italic;
+        }
+        
+        footer {
+            background: #1a3c5e;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 80px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            .attraction { flex-direction: column; }
+            .attraction:nth-child(even) { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Capri</h1>
+            <p class="subtitle">La joya del Golfo de Nápoles • Italia</p>
+            <p style="margin-top: 30px; font-size: 1.3rem;">Acantilados dramáticos, aguas turquesas y glamour mediterráneo</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <p class="intro">
+            Capri es uno de los destinos más mágicos de Italia. Con sus imponentes Faraglioni, la famosa Grotta Azzurra y vistas que quitan el aliento, esta pequeña isla combina naturaleza espectacular con el encanto de la dolce vita italiana. Aquí te presentamos los lugares imprescindibles que debes visitar.
+        </p>
+
+        <div class="attraction">
+            <img src="img/faraglioni.jpg" alt="Faraglioni de Capri">
+            <div class="text-content">
+                <h3>1. Los Faraglioni</h3>
+                <p>El símbolo indiscutible de Capri. Estas tres enormes formaciones rocosas que emergen del mar son impresionantes tanto desde tierra como desde el agua. La más famosa es la que tiene un arco natural por donde pasan los barcos.</p>
+                <p class="highlight">Recomendación: Admíralos desde el Belvedere di Tragara o durante un paseo en barco al atardecer.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="img/grotta azzurra.jpg" alt="Grotta Azzurra">
+            <div class="text-content">
+                <h3>2. Grotta Azzurra (Gruta Azul)</h3>
+                <p>La cueva marina más famosa del mundo. La luz del sol se filtra a través del agua creando un intenso color azul eléctrico. Solo se puede entrar en pequeñas barcas de remos cuando el mar está calmado.</p>
+                <p>Mejor momento: por la mañana temprano para evitar multitudes.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="img/jardines augusto - via krupp.jpg" alt="Jardines de Augusto">
+            <div class="text-content">
+                <h3>3. Jardines de Augusto y Via Krupp</h3>
+                <p>Preciosos jardines en terrazas con vistas panorámicas al mar y los Faraglioni. Justo al lado está la Via Krupp, una espectacular carretera en zigzag construida en la roca que desciende hacia el mar.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="img/monte solaro.jpg" alt="Monte Solaro">
+            <div class="text-content">
+                <h3>4. Monte Solaro y la silla elevadora</h3>
+                <p>El punto más alto de la isla (589 m). Toma la silla elevadora desde Anacapri para disfrutar de una vista 360° espectacular del Golfo de Nápoles, la Costa Amalfitana y los Faraglioni.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="img/marina piccola.jpg" alt="Marina Piccola">
+            <div class="text-content">
+                <h3>5. Marina Piccola</h3>
+                <p>La playa más popular y soleada de Capri. Aguas cristalinas, rocas para tomar el sol y varios restaurantes con vistas al mar. Ideal para un día de relax.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="img/piazza umberto I.jpeg" alt="Piazzetta de Capri">
+            <div class="text-content">
+                <h3>6. La Piazzetta (Piazza Umberto I)</h3>
+                <p>El "salón" de Capri. Esta pequeña plaza es el centro de la vida social: cafés elegantes, gente viendo pasar el mundo y el campanario con su reloj. Perfecta para un aperitivo al atardecer.</p>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <img src="img/anacapri villa san michele.jpg" alt="Anacapri y Villa San Michele">
+            <div class="text-content">
+                <h3>7. Anacapri y Villa San Michele</h3>
+                <p>El lado más tranquilo y auténtico de la isla. Visita la Villa San Michele de Axel Munthe con su jardín y la famosa escalera esfinge, y pasea por sus calles menos turísticas.</p>
+            </div>
+        </div>
+
+        <h2>Consejos prácticos para tu visita a Capri</h2>
+        <ul style="font-size: 1.1rem; line-height: 2;">
+            <li><strong>Paseo en barco:</strong> Es la mejor forma de ver los Faraglioni, la Grotta Azzurra y las cuevas (Verde y Blanca).</li>
+            <li><strong>Cómo llegar:</strong> Ferry desde Nápoles o Sorrento. En la isla usa funicular, autobús o taxi.</li>
+            <li><strong>Mejor época:</strong> Primavera (abril-junio) y otoño (septiembre-octubre) para evitar multitudes.</li>
+            <li><strong>No te pierdas:</strong> Un limoncello fresco y un paseo por las calles con boutiques de lujo.</li>
+        </ul>
+
+        <p style="text-align:center; margin-top:60px; font-size:1.2rem; font-style:italic;">
+            “Capri es un sueño hecho realidad en el Mediterráneo.”
+        </p>
+    </div>
+
+    <footer>
+        <p>Capri, Italia • Guía visual 2026</p>
+        <p>Hecho con ❤️ para los amantes de los viajes</p>
+    </footer>
+</body>
+</html>
